@@ -6,7 +6,7 @@ function App() {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Raghubans_Kareena_Resume.pdf';
+    link.href = `${import.meta.env.BASE_URL}Raghubans_Kareena_Resume.pdf`;
     link.download = 'Kareena_Raghubans_Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -66,8 +66,7 @@ function App() {
       <section className="hero">
         <div className="container">
           <div className="profile-image">
-            <img src="/kareena-photo.jpg" alt="Kareena Raghubans" className="profile-image-display" />
-          </div>
+          <img src={`${import.meta.env.BASE_URL}kareena-photo.jpg`} alt="Kareena Raghubans" className="profile-image-display" />          </div>
           <h1>Kareena Raghubans</h1>
           <h2>Software Engineer & Computer Science Student</h2>
           <p>
