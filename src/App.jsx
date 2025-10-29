@@ -109,7 +109,7 @@ function App() {
               <a href="https://www.linkedin.com/in/kareena-raghubans" target="_blank" rel="noopener noreferrer">
                 <span>LinkedIn</span>
               </a>
-              <a href="https://github.com/kareenaraghubans" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/JumDum1101" target="_blank" rel="noopener noreferrer">
                 <span>GitHub</span>
               </a>
               <a href="mailto:karaghubans@gmail.com">
