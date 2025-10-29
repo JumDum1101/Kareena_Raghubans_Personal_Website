@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const [profileImage, setProfileImage] = useState('public/kareena-photo.jpg'); // Use your photo by default
+  const [profileImage, setProfileImage] = useState('public/kareena-photo.jpg'); 
 
   const handleImageUpload = (event) => {
     const file = event.target.files[0];
@@ -137,8 +137,8 @@ function App() {
 
             <h3>Professional Work</h3>
             <p>
-              As a Part-Time Software Engineer at CodeNook - LingoAI, I develop Generative AI client
-              components using React.js and work with AWS services including Cognito, SNS, and Lambda.
+              As a Part-Time Software Engineer at CodeNook, I developed Generative AI client
+              components using React.js and worked with AWS services including Cognito, SNS, and Lambda.
               I've helped the platform grow from 2 to 13 customers by implementing seamless
               authentication and user management systems.
             </p>
@@ -177,6 +177,8 @@ function App() {
               <div className="skill-tags">
                 <span className="tag">React.js</span>
                 <span className="tag">Node.js</span>
+                <span className="tag">Angular</span>
+                <span className="tag">Django</span>
                 <span className="tag">Tailwind CSS</span>
               </div>
             </div>
@@ -187,6 +189,8 @@ function App() {
                 <span className="tag">AWS</span>
                 <span className="tag">GitHub</span>
                 <span className="tag">MySQL</span>
+                <span className="tag">Firebase</span>
+                <span className="tag">MongoDB</span>
                 <span className="tag">Figma</span>
                 <span className="tag">Jupyter Notebook</span>
                 <span className="tag">Visual Studio</span>
@@ -229,28 +233,6 @@ function App() {
                 View on Devpost →
               </a>
             </div>
-
-            <div className="project-card">
-              <h3>LingoAI - Generative AI Platform</h3>
-              <p>
-                A Generative AI platform that empowers businesses to create customized social media
-                content tailored to their brand voice and target audience. The platform provides an
-                intuitive interface for users to input business specifics and generate professional
-                content at scale.
-              </p>
-              <p style={{ fontSize: '0.9rem', color: '#a17388', marginTop: '0.5rem' }}>
-                <strong>My Role:</strong> Built Generative AI client components in React.js,
-                integrated AWS Cognito for authentication and user data management, implemented OpenAI
-                API for content generation, and developed AWS Lambda functions with SNS for automated
-                monthly account credit notifications.
-              </p>
-              <div className="skill-tags">
-                <span className="tag">React.js</span>
-                <span className="tag">AWS</span>
-                <span className="tag">OpenAI API</span>
-              </div>
-            </div>
-
             <div className="project-card">
               <h3>Theme Park Snack Recommender</h3>
               <p>
