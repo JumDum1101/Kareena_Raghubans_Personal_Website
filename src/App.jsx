@@ -2,18 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const [profileImage, setProfileImage] = useState('public/kareena-photo.jpg'); 
-
-  const handleImageUpload = (event) => {
-    const file = event.target.files[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onload = (e) => {
-        setProfileImage(e.target.result);
-      };
-      reader.readAsDataURL(file);
-    }
-  };
+  const [profileImage, setProfileImage] = useState('/kareena-photo.jpg'); // Use your photo by default
 
   const downloadResume = () => {
     const link = document.createElement('a');
@@ -76,27 +65,9 @@ function App() {
 
       <section className="hero">
         <div className="container">
-          <div className="image-upload-section">
-            <div 
-              className="upload-placeholder" 
-              onClick={() => document.getElementById('profileImageInput').click()}
-              style={profileImage ? {
-                backgroundImage: `url(${profileImage})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center'
-              } : {}}
-            >
-              {!profileImage && <span id="imagePreview">👋</span>}
-            </div>
-            <input
-              type="file"
-              id="profileImageInput"
-              accept="image/*"
-              style={{ display: 'none' }}
-              onChange={handleImageUpload}
-            />
+          <div className="profile-image">
+            <img src="/kareena-photo.jpg" alt="Kareena Raghubans" className="profile-image-display" />
           </div>
-
           <h1>Kareena Raghubans</h1>
           <h2>Software Engineer & Computer Science Student</h2>
           <p>
@@ -138,7 +109,7 @@ function App() {
             <h3>Professional Work</h3>
             <p>
               As a Part-Time Software Engineer at CodeNook, I developed Generative AI client
-              components using React.js and worked with AWS services including Cognito, SNS, and Lambda.
+              components using React.js and work with AWS services including Cognito, SNS, and Lambda.
               I've helped the platform grow from 2 to 13 customers by implementing seamless
               authentication and user management systems.
             </p>
