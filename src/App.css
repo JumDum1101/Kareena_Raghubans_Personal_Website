@@ -214,8 +214,8 @@ nav {
 }
 
 .profile-image {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto 2rem;
@@ -827,8 +827,8 @@ footer p {
 }
 
 .upload-placeholder {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   background: linear-gradient(135deg, #ffe4e9 0%, #ffd4df 50%, #ffc8d6 100%);
   display: flex;

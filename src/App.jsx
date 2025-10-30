@@ -71,8 +71,7 @@ function App() {
           <h1>Kareena Raghubans</h1>
           <h2>Software Engineer & Computer Science Student</h2>
           <p>
-            I'm passionate about building intuitive, impactful applications and mentoring the next
-            generation of developers. Currently pursuing my B.S./M.S. in Computer Science at UCF.
+            I’m a passionate builder who loves turning ideas into intuitive, meaningful applications that make people’s lives easier. Whether it’s creating seamless user experiences, designing smart backend systems, or mentoring new developers, I’m driven by the impact technology can have when it’s built with care. I’m currently pursuing my B.S./M.S. in Computer Science at the University of Central Florida, where I’m exploring the intersections of AI, full-stack development, and human-centered design.
           </p>
 
           <div className="social-links">
@@ -108,18 +107,12 @@ function App() {
 
             <h3>Professional Work</h3>
             <p>
-              As a Part-Time Software Engineer at CodeNook, I developed Generative AI client
-              components using React.js and work with AWS services including Cognito, SNS, and Lambda.
-              I've helped the platform grow from 2 to 13 customers by implementing seamless
-              authentication and user management systems.
+              At CodeNook, I serve as a Part-Time Software Engineer developing Generative AI client components with React.js and TypeScript. I architect and maintain AWS-powered infrastructure using Cognito for user identity, SNS for cross-service communication, and Lambda for event-based automation. By improving the authentication pipeline and streamlining user management workflows, I enhanced system reliability and user retention, helping scale the platform from 2 to 13 active customers.
             </p>
 
             <h3>Giving Back</h3>
             <p>
-              I'm deeply committed to mentorship through Girls Who Code, where I guide both high
-              school and college students in learning programming fundamentals and building their
-              careers in tech. Making coding approachable and fun for the next generation is one of
-              my greatest passions.
+              I'm deeply committed to mentorship through Girls Who Code, where I guide both high school and college students in learning programming fundamentals and building confidence in their technical skills. Helping others discover that coding can be both approachable and empowering is one of my greatest passions.
             </p>
           </div>
         </div>
@@ -248,9 +241,9 @@ function App() {
             </div>
 
             <div className="interest-card">
-              <div className="interest-icon">🏆</div>
-              <h3>Competitive Programming</h3>
-              <p>First place winner at Lockheed Martin Code Quest 2022, passionate about problem-solving challenges</p>
+              <div className="interest-icon">📊</div>
+              <h3>Data Analysis</h3>
+              <p>Applying statistical methods and computational tools to interpret complex datasets</p>
             </div>
           </div>
         </div>
