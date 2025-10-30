@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const [profileImage, setProfileImage] = useState('/kareena-photo.jpg'); // Use your photo by default
+  const [profileImage, setProfileImage] = useState('/kareena-photo.jpeg'); // Use your photo by default
 
   const downloadResume = () => {
     const link = document.createElement('a');
