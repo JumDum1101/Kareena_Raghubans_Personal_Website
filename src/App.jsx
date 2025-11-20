@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-
+//redeploy
 function App() {
   const [profileImage, setProfileImage] = useState('/kareena-photo.jpg'); // Use your photo by default
 
