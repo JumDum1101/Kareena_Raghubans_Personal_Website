@@ -198,6 +198,31 @@ function App() {
               </a>
             </div>
             <div className="project-card">
+              <h3>Cairos - Scheduling and Availability Platform</h3>
+              <p>
+                Developed a smart scheduling platform that unifies everyone’s availability into clear, ready-to-book meeting times. Cairos syncs directly with Google Calendar, merges multi-user schedules, and automatically identifies optimal windows for groups. Email-based authentication powered by SendGrid makes onboarding seamless, while custom APIs handle conflict resolution, booking logic, and real-time scheduling updates.
+              </p>
+              <p style={{ fontSize: '0.9rem', color: '#a17388', marginTop: '0.5rem' }}>
+                <strong>My Role:</strong> Implemented SendGrid-based email authentication, built backend APIs for user verification and availability syncing, and developed the booking and time-finding logic that selects optimal meeting windows. Integrated email notifications to confirm scheduled meetings.
+              </p>
+              <div className="skill-tags">
+                <span className="tag">React.js</span>
+                <span className="tag">Javascript</span>
+                <span className="tag">MongoDB</span>
+                <span className="tag">SendGrid</span>
+                <span className="tag">Google Calendar APIs</span>
+                <span className="tag">Flutter</span>
+              </div>
+              <a
+                href="https://www.youtube.com/watch?v=4dP1Sn3qUTA"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
+              >
+                View Demo →
+              </a>
+            </div>
+            <div className="project-card">
               <h3>Theme Park Snack Recommender</h3>
               <p>
                 Building a full-stack web application that recommends theme park foods based on user
