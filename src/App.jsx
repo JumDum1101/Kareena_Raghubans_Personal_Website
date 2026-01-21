@@ -100,7 +100,7 @@ function App() {
             <h3>Education & Experience</h3>
             <p>
               I'm currently enrolled in the Accelerated B.S./M.S. program in Computer Science at
-              the University of Central Florida, maintaining a 3.5 GPA while pursuing a minor in
+              the University of Central Florida, maintaining a 3.6 GPA while pursuing a minor in
               Statistics. My academic journey has been recognized with multiple honors including the
               UCF Dean's List and NCWIT Rising Star Award.
             </p>
@@ -200,7 +200,7 @@ function App() {
             <div className="project-card">
               <h3>Cairos - Scheduling and Availability Platform</h3>
               <p>
-                Developed a smart scheduling platform that unifies everyone’s availability into clear, ready-to-book meeting times. Cairos syncs directly with Google Calendar, merges multi-user schedules, and automatically identifies optimal windows for groups. Email-based authentication powered by SendGrid makes onboarding seamless, while custom APIs handle conflict resolution, booking logic, and real-time scheduling updates.
+                Built a scheduling platform that helps groups coordinate availability and find meeting times that work for everyone. Cairos connects to users’ calendars, collects their availability, and identifies shared time slots. Once a meeting is confirmed, it automatically adds the event to each participant’s calendar. The platform also supports user sign-in, email notifications, and simple tools for creating and managing bookings.
               </p>
               <p style={{ fontSize: '0.9rem', color: '#a17388', marginTop: '0.5rem' }}>
                 <strong>My Role:</strong> Implemented SendGrid-based email authentication, built backend APIs for user verification and availability syncing, and developed the booking and time-finding logic that selects optimal meeting windows. Integrated email notifications to confirm scheduled meetings.
