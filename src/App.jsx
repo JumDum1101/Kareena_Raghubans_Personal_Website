@@ -107,7 +107,7 @@ function App() {
 
             <h3>Professional Work</h3>
             <p>
-              At CodeNook, I serve as a Part-Time Software Engineer developing Generative AI client components with React.js and TypeScript. I architect and maintain AWS-powered infrastructure using Cognito for user identity, SNS for cross-service communication, and Lambda for event-based automation. By improving the authentication pipeline and streamlining user management workflows, I enhanced system reliability and user retention, helping scale the platform from 2 to 13 active customers.
+              At CodeNook, I served as a Part-Time Software Engineer developing Generative AI client components with React.js and TypeScript. I architect and maintain AWS-powered infrastructure using Cognito for user identity, SNS for cross-service communication, and Lambda for event-based automation. By improving the authentication pipeline and streamlining user management workflows, I enhanced system reliability and user retention, helping scale the platform from 2 to 13 active customers.
             </p>
 
             <h3>Giving Back</h3>
