@@ -653,13 +653,34 @@ section {
   z-index: 1;
 }
 
-.project-card p {
-  color: #8b6578;
-  margin-bottom: 1.5rem;
-  font-weight: 300;
-  line-height: 1.8;
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+#projects .container {
+  max-width: 1600px;
+  width: 95%;
+}
+
+.project-card {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.85) 0%,
+    rgba(255, 240, 245, 0.85) 100%
+  );
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(212, 113, 142, 0.12);
+  transition: all 0.4s ease;
+  animation: scaleIn 0.8s ease-out backwards;
+  backdrop-filter: blur(10px);
   position: relative;
-  z-index: 1;
+  overflow: hidden;
+  min-width: 0;
 }
 
 .project-link {
